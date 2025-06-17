@@ -1,0 +1,10 @@
+{
+  "content": {
+    "index_hero_image": "public/uploads/caminhao-coleta.jpg",
+    "coletaamiga_title": "O que é o Programa Coleta Amiga?",
+    "coletaamiga_text_p1": "Este é o parágrafo 1 sobre o Coleta Amiga carregado dinamicamente via JSON e JavaScript!",
+    "coletaamiga_text_p2": "Este é o parágrafo 2. A separação dos resíduos é fundamental para o meio ambiente e para a geração de renda.",
+    "contato_phone_secretaria": "(44) 3528-XXXX (Secretaria)",
+    "contato_email_secretaria": "meioambiente@assischateaubriand.pr.gov.br"
+  }
+}

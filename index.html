@@ -1,24 +1,88 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coleta Seletiva - Assis Chateaubriand</title>
-    <meta name="description" content="Cronograma e informações sobre a coleta seletiva da Prefeitura de Assis Chateaubriand." />
-    
-    <link rel="icon" href="/imagens/favicon.ico" type="image/x-icon">
-    
-    <!-- Apenas o preconnect para as fontes. O CSS delas será carregado de forma não-bloqueante -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body class="">
 
-    <!-- O plugin 'critters' cuidará de carregar o CSS de forma otimizada.
-         Podemos adicionar a fonte aqui com media="print" para carregar de forma não-bloqueante -->
-    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap"></noscript>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+    <!-- Cabeçalho Completo -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="contact-info">
+                <span><i class="fas fa-phone"></i> <a href="#" id="header-phone-secretaria">Carregando...</a></span>
+                <span><i class="fas fa-envelope"></i> <a href="#" id="header-email-secretaria">Carregando...</a></span>
+            </div>
+        </div>
+    </div>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo-area">
+                <img id="logo-prefeitura" src="" alt="Logo Prefeitura" class="logo">
+                <span class="site-title">Prefeitura Municipal de<br><strong>Assis Chateaubriand</strong></span>
+            </div>
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <i class="fas fa-bars icon-open"></i>
+                <i class="fas fa-times icon-close"></i>
+            </button>
+            <nav class="main-nav">
+                <!-- O menu pode ser adicionado aqui se for estático ou via JS se for dinâmico -->
+                <ul>
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="quemsomos.html">Quem Somos</a></li>
+                    <!-- etc... -->
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Seção Hero -->
+        <section id="hero">
+            <img id="hero-image" src="" alt="Imagem da Coleta Seletiva">
+        </section>
+
+        <!-- Seção do Cronograma -->
+        <section id="cronograma" class="info-section">
+            <div class="container">
+                <h2>Cronograma da Coleta</h2>
+                <img id="cronograma-image" src="" alt="Cronograma da coleta seletiva">
+            </div>
+        </section>
+
+        <!-- Seção Quem Somos (resumo) -->
+        <section id="quemsomos" class="info-section">
+            <div class="container">
+                <h2 id="quemsomos-page-title">Carregando...</h2>
+                
+                <h3 id="coletaamiga-title">Carregando...</h3>
+                <p id="coletaamiga-text-p1">Carregando...</p>
+                <p id="coletaamiga-text-p2">Carregando...</p>
+
+                <h3 id="acamar-section-title">Carregando...</h3>
+                <p id="acamar-text-p1">Carregando...</p>
+                <p id="acamar-text-p2">Carregando...</p>
+            </div>
+        </section>
+        
+        <!-- Outras seções podem ser adicionadas aqui seguindo o mesmo padrão -->
+
+    </main>
+
+    <!-- Rodapé Completo -->
+    <footer id="main-footer">
+        <div class="footer-copyright">
+            <div class="container">
+                © 2024 Prefeitura Municipal de Assis Chateaubriand.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script para carregar o conteúdo dinâmico -->
+    <script src="script.js"></script>
+    <!-- Script para funcionalidades do menu mobile, etc (se houver) -->
+</body>
 </html>
